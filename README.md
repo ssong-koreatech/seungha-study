@@ -8,4 +8,6 @@ https://www.inflearn.com/course/%EC%BD%94%ED%8B%80%EB%A6%B0-%EA%B0%95%EC%A2%8C-%
 OTP 암호 설정, 인스턴스 생성
 3.코틀린 마이크로서비스 개발
 
-2장 97페이지 까지 학습
+2장 스프링 부트2.0 시작하기 / 학습 완료
+
+3장 RESTful 서비스 만들기  / 학습 시작
