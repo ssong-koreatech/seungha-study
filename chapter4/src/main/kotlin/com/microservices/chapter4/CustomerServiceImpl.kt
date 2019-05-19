@@ -1,13 +1,14 @@
-package com.microservices.chapter3
+package com.microservices.chapter4
 
 import java.util.concurrent.ConcurrentHashMap
 import org.springframework.stereotype.Component
+import com.microservices.chapter4.Customer.Telephone
 
 @Component
 class CustomServiceImpl : CustomService {
     companion object {
         val initialCustomers = arrayOf(
-                Customer(1,"Kotilin"),
+                Customer(1,"Kotilin", Telephone("+44","0103202899")),
                 Customer(2,"Spring"),
                 Customer(3,"MicroService"))
     }
