@@ -1,6 +1,6 @@
-package com.microservices.chapter3
+package com.microservices.chapter4
 
-interface CustomService {
+interface CustomerService {
     fun getCustomer(id: Int) : Customer?
     fun createCustomer(customer: Customer)
     fun deleteCustomer(id : Int)
